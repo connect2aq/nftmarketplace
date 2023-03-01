@@ -1,6 +1,6 @@
 import { Banner, CreatorCard, NFTCard } from '@/components';
 import images from '../assets';
-import { makeId } from '@/utils/makeId';
+import { makeId } from '@/utils/makeid';
 
 import { useRef, useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
